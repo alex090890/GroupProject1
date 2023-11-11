@@ -1,0 +1,87 @@
+.expertise {
+    display: block;
+    color: rgb(128, 128, 128);
+}
+
+.expertise-title, .expertise-description {
+    text-align: center;
+}
+
+.expertise-description {
+    margin-bottom: 20px;
+}
+
+.expertise-title {
+    text-transform: uppercase;
+}
+
+.expertise-divider {
+    width: 3%;
+    height: 3px;
+    border: 1px solid rgb(128, 128, 128);
+    background-color: rgb(128, 128, 128);
+    margin: auto;
+}
+
+.expertise-properties {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.expertise-property {
+    
+    width: 25%;
+    padding: 0 10px;
+}
+
+.prp1 {
+    border-right: 1px solid rgba(128, 128, 128, 0.3);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.prp2 {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+    border-right: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.prp3 {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.prp4 {
+    border-right: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.prp5 {
+    border-right: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.expertise-property-h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.expertise-property-description {
+    text-align: center;
+}
+
+.expertise-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Team Section */
+
+.team {
+    background: url(./assets/nature-3082832_1280.jpg), rgba(0, 0, 255, 0.99);
+    background-blend-mode: screen;
+}
+
+.team-heading {
+    text-transform: uppercase;
+    text-align: center;
+}
