@@ -2,6 +2,20 @@ body {
     margin: 0;
 }
 
+/* Video */
+.story-video {
+    background-image: url(./design-assets/bgk-middle.png);
+    height: 500px;
+}
+
+.story-video img {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
+
 /* Expertise Section*/
 .expertise {
     display: block;
@@ -185,12 +199,3 @@ textarea {
     width: 100%;
 }
 
-/* Footer */
-footer {
-    background-image: url("./design-assets/bgk-footer.png");
-    color: white;
-}
-
-.footer-upper-line-1 {
-    display: inline-flex;
-}

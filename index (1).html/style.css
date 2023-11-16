@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+}
+
+header {
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    background-image: url('bgk-header.png');
+    background-size:cover;
+    background-position: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    color: white; 
+}
+
+.home {
+    color: aquamarine;
+    margin: 5px;
+    padding: 10px;
+    font-size: 70%;
+}
+.column {
+    margin: 5px;
+    padding: 10px;
+    font-size:70%;
+}
+
+.tajam img {
+    margin: 10px;
+    padding: 10px;
+    color: aquamarine;
+    font-size: 140%;
+    font-weight: 400;
+    margin-right: 10px;
+    width: 70px;
+    height: 70px;
+    vertical-align: left;
+}
+
+.tajam-div {
+    display: flex; 
+    align-items: center; 
+    color: aquamarine;
+    font-size: 140%;
+}
+
+span {
+    margin-left: 10px;
+}
+
+.homebar {
+    justify-content: flex-end;
+    display: flex;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.line {
+    width: 10%; 
+    height: 0.5px; 
+    background-color: aquamarine; 
+    margin: 0 auto 20px; 
+}
+
+.learnmore {
+    color: aquamarine;
+    background-color: none;
+    padding: 10px 20px;
+    display: inline-block; 
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+    font-size: 70%;
+    justify-content: center;
+    margin-top: 40px;
+}
+.maintext {
+    color: white;
+    margin: 300;
+    padding: 300px;
+    padding-top: 100px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.ourstory {
+    background-color: white;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size:x-large;
+}
+.ourstory img {
+    width: 150px; 
+    height: 150px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 40px;
+    padding-right: 40px;
+}
+.ourstory span {
+    display: block; 
+}
+
+.ourstory p {
+    margin: 0; 
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+}
+
+.ourstoryinner {
+    width: 600px;
+}
+.learnmore {
+    color: rgb(9, 202, 196);
+    background-color: none;
+    padding: 10px 20px;
+    display: inline-block; 
+    border: 1px solid rgb(9, 202, 196);
+    border-radius: 5px;
+    font-size: 60%;
+    justify-content: center;
+    font-weight: bolder; 
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+.ourstudio{
+    background-image: url('bgk-footer.png');
+    background-size:cover;
+    background-position: center;
+    display: flex;flex: 1; 
+    padding: 20px;
+    padding-top: 50px;
+    border: 1px solid white;
+    margin: 10px;
+    text-align: center;
+    justify-content: space-around;
+}
+.tajamstudio {
+    color: aquamarine;
+    width: 500px;
+    padding-left: 100px;
+    padding-right: 20px;
+}
+.tajamstudio img {
+    padding-bottom: 10px;
+    color: aquamarine;
+    font-size: 140%;
+    font-weight: 400;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    vertical-align: left;
+}
+.tajamstudio p {
+    color: white;
+    font-size: 14px;
+    justify-content: space-around;
+    text-align: left;
+}
+.tajam-img {
+    display: flex; 
+    align-items: center; 
+}
+.studio {
+    color: white;
+    width: 500px;
+    text-align: left;
+    padding-right: 20px;
+}
+.studio p {
+    color: white;
+}
+.studiokid {
+    color: brown;
+}
+.symbol{
+    margin-right: 10px;
+    height: 1em;
+    width: auto;
+}
+.socialsymbol{
+    width: 30px; 
+    height: 30px;  
+    margin-right: 8px;
+}
+.touch {
+    color: white;
+    width: 500px;
+    text-align: left;
+}
+.newsletter-container {
+    padding-top: 20px;
+    text-align: left;
+    border-radius: 8px;
+}
+.newsletter-container p {
+    color: white;
+    font-size: small;
+}
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid; 
+    border-color: lightgray;
+    background-color: transparent;
+    color: lightgrey;
+}
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
