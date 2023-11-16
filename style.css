@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+}
+
+/* Expertise Section*/
 .expertise {
     display: block;
     color: rgb(128, 128, 128);
@@ -77,11 +82,115 @@
 /* Team Section */
 
 .team {
-    background: url(./assets/nature-3082832_1280.jpg), rgba(0, 0, 255, 0.99);
+    background: url(https://i.pinimg.com/originals/60/c1/43/60c143c5a7e8c9cccae51f5aebda73c0.jpg), rgba(0, 0, 255, 99%);
     background-blend-mode: screen;
+    color: white;
 }
 
 .team-heading {
     text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.team-heading, .team-intro {
     text-align: center;
+    font-weight: 900;
+}
+
+.teams-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-photo {
+    background-color: white;
+    height: 200px;
+}
+
+.team1, .team2, .team3, .team4 {
+    margin: auto;
+    border: 1px solid white;
+    width: 200px;
+    color: white;
+}
+
+.team-description {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.team-proposal {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.team-button {
+    margin: 0 auto;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+/*Feedback section*/
+
+.feedback {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.contact-form, .happy-clients {
+    width: 49%;
+}
+
+.form-header, .clients-header {
+    text-transform: uppercase;
+    color: grey;
+}
+
+.clients-header {
+    padding-left: 40px;
+}
+
+.clients-logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+}
+
+div.clients-logos img {
+    height: 20px;
+    width: 75px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+textarea {
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    background-image: url("./design-assets/bgk-footer.png");
+    color: white;
+}
+
+.footer-upper-line-1 {
+    display: inline-flex;
 }
